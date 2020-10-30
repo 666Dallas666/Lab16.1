@@ -46,7 +46,7 @@ class Pianica {
             deck[i] = scanner.nextInt();
         for (int i = 0; i < deck.length; i++){
             if (deck[i] < 0 || deck[i] > 9){
-                System.out.println("Ошибка! Карты не могут повторяться или  cock находиться вне диапазона от 0 до 9\nПовторите ввод:");
+                System.out.println("Ошибка! Карты не могут повторяться или находиться вне диапазона от 0 до 9\nПовторите ввод:");
                 c = true;
             }
             for (int j = 0; j < deck.length; j++)
